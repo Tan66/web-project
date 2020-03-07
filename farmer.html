@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link rel="stylesheet" href="farmer.css"> 
+</head>
+<body>
+    <div class="fixed-header">
+            <p>STORAGE MANAGEMENT SYSTEM</p>
+            <form class="log-out" method="get" action="login.html">
+                <button type="submit">Log Out</button>
+            </form>
+    </div>
+    <div class="flex-container">
+            <div id="design-box">
+            <div class="login-page">
+            <div class = "top">
+                <h1>Farmer</h1>
+                <form  class="back" method="get" action="main.html">
+                    <button type="submit">Back</button>
+                </form>
+            </div>
+        <div class="form">
+            <form class="farmer" action="farmer.php" method="POST">
+                <div class="textname"><br>Farmer ID</div>
+                <div class='textbox'><input type="text" placeholder="farmer id" name="fid" /></br></div>
+                <div class="textname"><br>Farmer Name</div>
+                <div class='textbox'><input type="text" placeholder="farmer name" name="fname" /></br></div>
+                <div class="textname"><br>Location</div>
+                <div class='textbox'><input type="text" placeholder="city" name="location" /></br></div>
+                <div class="textname"><br>Contact</div>
+                <div class='textbox'><input type="text" placeholder="contact" name="contact" /></br></div>
+                <div class="textname"><br>Crop</div>
+                <div class='textbox'><input type="text" placeholder="crop" name="crop" /></br></div>
+                <div class="textname"><br>Price(per kg)</div>
+                <div class='textbox'><input type="text" placeholder="price" name="price" /></br></div>
+                <br>
+                <button>add</button>
+                <button>delete</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="fixed-footer">
+            Copyright &copy; Storage Management System 2019
+    </div>
+</body>
+</html>

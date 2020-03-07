@@ -1,0 +1,46 @@
+<html>
+<head>
+        <link rel="stylesheet" href="salesman.css"> 
+</head>
+<body>
+    <div class="fixed-header">
+            <p>STORAGE MANAGEMENT SYSTEM</p>
+            <form class="log-out" method="get" action="login.html">
+                    <button type="submit">Log Out</button>
+            </form>
+        </div>
+        <div class="flex-container">
+        <div id="design-box">
+        <div class = "top">
+                <h1>Salesman</h1>
+                <form  class="back" method="get" action="main.html">
+                        <button type="submit">Back</button>
+                </form>
+            </div>
+    <div class="login-page">
+        <div class="form">
+            <form class="salesman" action="salesman.php" method="POST">
+                <div class= "textname"><br/>Tin Number</div>
+                <div class = "textbox"><input type="text" placeholder="tin number" name="tin" /></br></div>
+                <div class="textname"><br>Full Name</div>
+                <div class="textbox"><input type="text" placeholder="Salesman name" name="sname" /></br></div>
+                <div class="textname"><br>Current Address</div>
+                <div class="textbox"><input type="text" placeholder="address" name="address1" /></br></div>
+                <div class="textname"><br>Permanent Address</div>
+                <div class="textbox"><input type="text" placeholder="address" name="address2" /></br></div>
+                <div class="textname"><br>Contact</div>
+                <div class="textbox"><input type="text" placeholder="contact" name="contact" /></br></div>
+                <br>
+                <button>add</button>
+                <button>delete</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="fixed-footer">
+        Copyright &copy; Storage Management System 2019
+</div>
+</body>
+</html>

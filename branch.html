@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="branch.css"> 
+</head>
+<body>
+    <div class="fixed-header">
+        <p>STORAGE MANAGEMENT SYSTEM</p>
+        <form class="log-out" method="get" action="login.html">
+                <button type="submit">Log Out</button>
+        </form>
+    </div>
+    <div class="flex-container">
+    <div id="design-box">
+    <div class="login-page">
+    <div class = "top">
+            <h1>Branch</h1>
+            <form  class="back" method="get" action="main.html">
+                    <button type="submit">Back</button>
+            </form>
+        </div>
+        <div class="form">
+            <form class="branch" action="branch.php" method="POST">
+                <div class="textname"><br>Branch ID</div>
+                <div class= 'textbox'><input type="text" placeholder="branch id" name="bid" /></div>
+                <div class="textname"><br>Branch Name</div>
+                <div class='textbox'><input type="text" placeholder="branch name" name="bname"/></div>
+                <div class="textname"><br>Location</div>
+                <div class='textbox'><input type="text" placeholder="city" name="location" /></br></div>
+                <div class="textname"><br>Contact</div>
+                <div class='textbox'><input type="text" placeholder="contact" name="contact" /></br></div>
+                <br>
+                <button>add</button>
+                <button>delete</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="fixed-footer">
+        Copyright &copy; Storage Management System 2019
+    </div>
+</body>
+</html>

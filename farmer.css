@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    font-size:16px;
+    color: #fff; 
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#design-box {
+    position: relative;
+    margin: 5% auto;
+    height: 630px;
+    width: 600px;
+    background: #999ede;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h1  {
+    position: relative;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    box-sizing:border-box;
+    
+    width: 100%;
+    height: 100%;
+}
+
+button
+{
+    
+    margin-bottom: 28px;
+    width: fit-content;
+    height:35px;
+    background: rgb(255, 28, 28);
+    border:none;
+    border-radius:2px;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover, button:focus {
+    background: #ff0101;
+    color:rgb(0, 0, 0);
+    opacity: 1;
+}
+.fixed-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    position: relative;        
+    background: #475f7c;
+    color: #fff;
+}
+
+.fixed-header p{
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.fixed-footer{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: relative;        
+    background: #475f7c;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.fixed-footer p{
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-out{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+
+}
+
+.back{
+    margin-top: -70px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+transform: translate(0, -95%);
+}
+
+.log-out button{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+ 
+input[type= "text"]{
+    display: inline-block;
+    
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    padding:16px;
+    width:250px;
+    height:10px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid rgb(68, 67, 67);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    border-radius: 20px;
+    transition: 0.2s ease;
+}
+select {
+   border-radius: 20px; 
+   width:100px;
+    height:35px;
+    transition: 0.2s ease;
+}
+
+.textbox {
+    display:block;
+}
+.textname {
+    padding:3px;
+}
